@@ -42,14 +42,14 @@ const Advantage = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center p-3 bg-white shadow-md rounded-lg hover:shadow-lg transition-shadow mid:p-6 text-gray-600"
+              className="flex flex-col items-center text-center p-3 mid:p-6 text-white"
             >
               <img
                 src={feature.icon}
                 alt={feature.title}
                 className="w-16 h-16 mb-4"
               />
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+              <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
               <p className="text-sm">{feature.description}</p>
             </div>
           ))}

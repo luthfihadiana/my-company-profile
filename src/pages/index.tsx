@@ -3,6 +3,7 @@ import Advantage from "@/components/Advantage";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Partners from "@/components/Partners";
 import Products from "@/components/Products";
 import getProduct from "@/service/getProduct";
 import { ProductDetail } from "@/types";
@@ -31,6 +32,7 @@ export default function Home({ data }: PageProps) {
         <About />
         <Advantage />
         <Products data={data} />
+        <Partners />
         <Footer />
       </main>
     </div>
